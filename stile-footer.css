@@ -1,0 +1,42 @@
+footer {
+  box-sizing: border-box;
+  padding: 1rem;
+  background-color: black;
+}
+
+.contenitore-logo {
+  width: 120px;
+}
+
+.contenitore-logo > img {
+  max-width: 100%;
+  float: left;
+}
+
+.clearfix::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+footer {
+  color: white;
+}
+footer i {
+  float: right;
+  font-size: 3.5rem !important;
+  margin: 1rem;
+  /* important pk la classe del link esterno per le icone 
+  ha una specificità maggiore,e non voglio creare 
+  un'altra classe per le icone del footer */
+}
+
+footer i:hover {
+  color: red;
+}
+
+.footer-riga-2 {
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
