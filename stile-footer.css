@@ -2,6 +2,7 @@ footer {
   box-sizing: border-box;
   padding: 1rem;
   background-color: black;
+  color: white;
 }
 
 .contenitore-logo {
@@ -19,16 +20,14 @@ footer {
   display: table;
 }
 
-footer {
-  color: white;
-}
 footer i {
-  float: right;
-  font-size: 3.5rem !important;
   margin: 1rem;
+  float: right;
+  color: white;
+  font-size: 3.5rem !important;
   /* important pk la classe del link esterno per le icone 
   ha una specificità maggiore,e non voglio creare 
-  un'altra classe per le icone del footer */
+  un'altra classe o ID per le icone del footer */
 }
 
 footer i:hover {
